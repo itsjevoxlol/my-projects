@@ -1,6 +1,6 @@
 // resubmitting this new year's problem
-#include <ctype.h>
 #include <cs50.h>
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 
