@@ -1,9 +1,9 @@
 // resubmitting this new year's problem
 #include <cs50.h>
+#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <ctype.h>
 
 bool only_digits(string s);
 char rotate(char c, int n);
@@ -58,12 +58,12 @@ char rotate(char c, int n)
 {
     if (isupper(c))
     {
-        c = (c - 65 + n)%26 +65;
+        c = (c - 65 + n) % 26 + 65;
         return c;
     }
     else if (islower(c))
     {
-        c = (c - 97 +n)%26 + 97;
+        c = (c - 97 + n) % 26 + 97;
         return c;
     }
     else
