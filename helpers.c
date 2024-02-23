@@ -1,4 +1,4 @@
-// resubmitting this new year's problem
+// resubmitting this new year's problem again
 #include "helpers.h"
 #include "math.h"
 
@@ -17,7 +17,6 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
             image[i][j].rgbtRed = averageRGB;
             image[i][j].rgbtGreen = averageRGB;
             image[i][j].rgbtBlue = averageRGB;
-
         }
     }
     return;
@@ -55,7 +54,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
             // Swap pixels
             RGBTRIPLE temp = image[i][j];
             image[i][j] = image[i][width - 1 - j];
-            image[i][width - 1 -j] = temp;
+            image[i][width - 1 - j] = temp;
         }
     }
     return;
