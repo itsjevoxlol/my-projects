@@ -65,5 +65,4 @@ int main(int argc, char *argv[])
     // close any remaining files
     fclose(card);
     fclose(img);
-
 }
