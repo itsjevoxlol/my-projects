@@ -1,6 +1,7 @@
 # resubmitting this new year's problem
 from cs50 import get_float
 
+
 def main():
     # how many cents the customer is owed
     cents = get_cents()
@@ -25,11 +26,13 @@ def main():
     coins = quarters + dimes + nickels + pennies
     print(coins)
 
+
 def get_cents():
     while True:
         change = get_float("Change: ")
         if change >= 0:
             return change * 100
+
 
 def calculate_quarters(cents):
     quarters = 0
@@ -38,12 +41,14 @@ def calculate_quarters(cents):
         quarters += 1
     return quarters
 
+
 def calculate_dimes(cents):
     dimes = 0
     while cents >= 10:
         cents -= 10
         dimes += 1
     return dimes
+
 
 def calculate_nickels(cents):
     nickels = 0
@@ -52,11 +57,13 @@ def calculate_nickels(cents):
         nickels += 1
     return nickels
 
+
 def calculate_pennies(cents):
     pennies = 0
     while cents >= 1:
         cents -= 1
         pennies += 1
     return pennies
+
 
 main()
