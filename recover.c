@@ -1,4 +1,3 @@
-// resubmitting this new year's problem again
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
