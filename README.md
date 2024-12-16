@@ -13,4 +13,3 @@ The goal of this is to implement a program that runs a plurality election and de
 2. The program keeps track of the votes cast for each candidate.
 3. **The candidate with the most votes** is declared the winner.
 
----
