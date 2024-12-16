@@ -29,4 +29,3 @@ This program simulates a **ranked-choice voting system** using the **instant run
    - It redistributes votes based on voter preferences.
 3. The program repeats this process until a winner is found.
 
----
