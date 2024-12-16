@@ -1,8 +1,8 @@
-# Inheritance Problem Set
+# Inheritance
 
 ## Description
 
-In this problem set, we simulate the inheritance of blood types in a family tree. A person’s blood type is determined by two alleles (genetic forms), which can be A, B, or O. Each person inherits one allele from each parent, leading to possible blood type combinations such as OO, OA, OB, AO, AA, AB, BO, BA, and BB.
+In this, we simulate the inheritance of blood types in a family tree. A person’s blood type is determined by two alleles (genetic forms), which can be A, B, or O. Each person inherits one allele from each parent, leading to possible blood type combinations such as OO, OA, OB, AO, AA, AB, BO, BA, and BB.
 
 The goal is to implement a family tree where each person has randomly assigned blood type alleles, and younger generations inherit their blood type alleles from their parents.
 
@@ -14,7 +14,7 @@ The goal is to implement a family tree where each person has randomly assigned b
 
 ---
 
-## Problem Requirements
+## Requirements
 
 1. **Create a Family**: 
    - The `create_family` function takes an integer `generations` as input and creates a family of that size.
@@ -34,4 +34,3 @@ The goal is to implement a family tree where each person has randomly assigned b
    - Implement the `create_family` function to allocate memory for the family members and assign alleles appropriately.
    - Use the `random_allele` function to randomly assign alleles to individuals in the oldest generation.
 
----
