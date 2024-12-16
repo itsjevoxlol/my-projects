@@ -6,7 +6,6 @@ Elections can be conducted in various ways across the world. One of the simplest
 
 The goal of this is to implement a program that runs a plurality election and determines the winner based on the number of votes each candidate receives.
 
----
 
 ## Requirements
 
